@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="org.apache.cordova.device" version="0.2.3">
+            id="io.github.sa7bi" version="1.0.3">
         <name>HelloIos</name>
         <description>A starter project for building Cordova's plugin</description>
         <license>Apache 2.0</license>
