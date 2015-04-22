@@ -1,11 +1,10 @@
 var exec = require('cordova/exec');
 
 
-var starter = function();
+var Starter = function();
 
-starter.show = function(){
-	exec(
-        function callback(data) {
+Starter.show = function(){
+	exec(function callback(data) {
             var msg = data;
             alert(msg);
             },
@@ -13,7 +12,7 @@ starter.show = function(){
                 alert('Error');
             },
             'HelloIos',
-            '',
+            'sayHello',
             []
         );
 

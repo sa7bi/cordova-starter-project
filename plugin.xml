@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="io.github.sa7bi" version="1.0.5">
+            id="io.github.sa7bi" version="1.0.6">
         <name>HelloIos</name>
+        <author>H. Belgacem Sahbi</author>
         <description>A starter project for building Cordova's plugin</description>
         <license>Apache 2.0</license>
         <keywords>cordova,project,starter</keywords>
-        <js-module src="www/starter.js" name="starter">
-            <clobbers target="cordova.plugins.starter" />
+        <js-module src="www/starter.js" name="Starter">
+            <clobbers target="cordova.plugins.Starter" />
         </js-module>
         <platform name="ios">
             <config-file target="config.xml" parent="/*">
-                <feature name="starter">
-                    <param name="ios-package" value="HelloIos" onload="true" />
+                <feature name="Starter">
+                    <param name="ios-package" value="HelloIos" />
                 </feature>
             </config-file>
             <header-file src="src/ios/HelloIos.h" />
