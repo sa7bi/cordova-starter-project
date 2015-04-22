@@ -1,0 +1,1 @@
+# A starter project for buiding plugins for Cordova
