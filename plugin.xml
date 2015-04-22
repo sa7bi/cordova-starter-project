@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="io.github.sa7bi" version="1.0.4">
+            id="io.github.sa7bi" version="1.0.5">
         <name>HelloIos</name>
         <description>A starter project for building Cordova's plugin</description>
         <license>Apache 2.0</license>
@@ -10,8 +10,8 @@
         </js-module>
         <platform name="ios">
             <config-file target="config.xml" parent="/*">
-                <feature name="Device">
-                    <param name="ios-package" value="CDVDevice"/>
+                <feature name="starter">
+                    <param name="ios-package" value="HelloIos" onload="true" />
                 </feature>
             </config-file>
             <header-file src="src/ios/HelloIos.h" />
