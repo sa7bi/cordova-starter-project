@@ -14,11 +14,12 @@
                     <param name="ios-package" value="CDVDevice"/>
                 </feature>
             </config-file>
-            <header-file src="src/ios/TestPluginIos/Classes/HelloIos.h" />
-            <source-file src="src/ios/TestPluginIos/Classes/HelloIos.m" />
+            <header-file src="src/ios/HelloIos.h" />
+            <source-file src="src/ios/HelloIos.m" />
         </platform>
 
         <platform name="android">
 
       </platform>
     </plugin>
+
