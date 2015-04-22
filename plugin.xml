@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="io.github.sa7bi" version="1.0.3">
+            id="io.github.sa7bi" version="1.0.4">
         <name>HelloIos</name>
         <description>A starter project for building Cordova's plugin</description>
         <license>Apache 2.0</license>
         <keywords>cordova,project,starter</keywords>
         <js-module src="www/starter.js" name="starter">
-            <clobbers target="starter" />
+            <clobbers target="cordova.plugins.starter" />
         </js-module>
         <platform name="ios">
             <config-file target="config.xml" parent="/*">
