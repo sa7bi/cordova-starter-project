@@ -17,3 +17,5 @@ Starter.show = function(){
         );
 
 }
+
+module.exports = Starter;
